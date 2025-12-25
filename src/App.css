@@ -1,0 +1,76 @@
+.navbar{
+  background-color: rgba(231, 181, 225, 0.471);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+}
+
+.navbar img{
+  width: 100px;  
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul li{
+    margin-right: 50px;
+}
+
+.one,.two,.three,.four{
+      cursor: pointer;
+}
+
+
+
+
+h4{
+  position: relative;
+  /* left: 150px; */
+}
+
+.button{
+  margin-right: 100px;
+  cursor: pointer;
+  padding:13px;
+  background-color:  rgba(145, 49, 49, 0.819);
+  border: none;
+  border-radius: 5px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+/* .cart {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  
+} */
+
+.products{
+  text-align: center;
+}
